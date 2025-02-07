@@ -5,7 +5,7 @@ Este programa implementa o algoritmo de multiplicação de Karatsuba em linguage
 
 O programa também conta com um contador global para medir quantas vezes a função recursiva `karatsuba` é chamada ao longo da execução.
 
-##Estrutura do Código
+## Estrutura do Código
 
 O código está dividido em:
 
@@ -26,7 +26,7 @@ O código está dividido em:
     - Divide os números em partes "altas" e "baixas".
     - Aplica a fórmula de Karatsuba para calcular o resultado.
 
-##Explicação das Variáveis
+## Explicação das Variáveis
 
 As variáveis foram nomeadas com base na atividade proposta para tornar a compreensão do algoritmo mais intuitiva:
 
@@ -37,7 +37,7 @@ As variáveis foram nomeadas com base na atividade proposta para tornar a compre
 - `multSoma`: resultado da multiplicação da soma das partes.
 - `metade`: determina a divisão dos números em partes altas e baixas.
 
-##Como Compilar e Executar
+## Como Compilar e Executar
 
 Para compilar o programa, utilize um compilador de C, como `gcc`:
 ```bash
@@ -47,7 +47,7 @@ Para executar:
 ```bash
 ./karatsuba
 ```
-##Exemplo de Saída
+## Exemplo de Saída
 ```bash
 A = 12345  B = 6789  C = 83755845
 Chamadas = 7
