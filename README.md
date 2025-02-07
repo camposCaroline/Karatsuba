@@ -19,7 +19,7 @@ O código está dividido em:
   - Exibe os resultados no console.
   - Reinicializa o contador para testar com novos valores.
 
-- **Implementação da Função `:karatsuba`**
+- **Implementação da Função: `karatsuba`**
   - Caso base: se os números têm apenas um dígito, realiza a multiplicação diretamente.
   - Caso recursivo:
     - Determina o maior número de dígitos entre `a` e `b`.
